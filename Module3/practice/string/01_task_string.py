@@ -8,3 +8,7 @@ surname = input("Фамилия: ")
 
 
 print(name, surname)
+
+print(str.upper(name[0:1]) and str.lower(name[1::]))
+
+print(name, surname)
