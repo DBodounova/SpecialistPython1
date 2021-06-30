@@ -8,3 +8,13 @@ item = {"name": "Кроссовки", "price": "7540.5", "currency": "rub", "cou
 dollar_rate = 74.12
 
 # TODO: your code here
+products = {
+    "name": "кроссовки",
+   "price": "7540.5",
+    "currency": "rub",
+    "count": "10",
+    "exchange_rate": dollar_rate
+    #dollar_rate*"price"
+}
+
+print(int(products["exchange_rate"])*int(products["count"]))
