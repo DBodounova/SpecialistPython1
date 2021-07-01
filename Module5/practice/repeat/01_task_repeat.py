@@ -5,3 +5,7 @@
 def gen_list(size, of, to):
     pass
 
+of = input("of = ")
+to = input("to = ")
+def gen_list(size, of, to):
+    return range in gen_list[-1:-2]:
