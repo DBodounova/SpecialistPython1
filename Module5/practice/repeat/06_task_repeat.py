@@ -5,6 +5,13 @@
 # Если все же делится, то надо исключить столетия: они все нацело делятся на 100, но те,
 # которые не делятся нацело на 400, високосными не являются.
 
-def days_in_year(num_year):
-    pass
 
+#if year can be divided by 400 or 4 are 366
+#else are 365
+year = int(input("year:  "))
+def days_in_year(num_year):
+    if year//4 == 0 and year//400 == 0:
+        print("days in this year are 366")
+    else:
+        print("days in this year are 365")
+days_in_year(year)
